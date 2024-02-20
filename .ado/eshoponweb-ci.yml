@@ -1,4 +1,3 @@
-#NAME THE PIPELINE SAME AS FILE (WITHOUT ".yml")
 trigger:
   branches:
     include:
