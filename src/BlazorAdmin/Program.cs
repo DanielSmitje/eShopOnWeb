@@ -1,4 +1,6 @@
-﻿using System;
+﻿// My second change
+
+using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 using BlazorAdmin;
@@ -13,6 +15,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
+// test
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#admin");
 builder.RootComponents.Add<HeadOutlet>("head::after");
