@@ -7,7 +7,7 @@ on: [push, workflow_dispatch]
 env:
   RESOURCE-GROUP: rg-eshoponweb-danielshop
   LOCATION: westeurope
-  TEMPLATE-FILE: .azure/bicep/webapp.bicep
+  TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: e972520d-6be0-4a8d-b2e9-46b472b9ae52
   WEBAPP-NAME: eshoponweb-webapp-daniel
 
